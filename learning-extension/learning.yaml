@@ -1,0 +1,21 @@
+Type: Jupyter Notebook Extension
+Name: Learning
+Description: |
+  The whole notebook is considered practice material.
+  When the notebook starts, only the first cell is active. Once the first answer is 
+  correct, the next cell is activated, and so on. All cells (exercises and solutions)
+  must be defined before the plugin is activated.
+Link: readme.md
+Main: main.js
+Compatibility: 3.x, 4.x, 5.x, 6.x
+Parameters:
+
+- name: add_button
+  description: Add a toolbar button to activate plugin
+  input_type: checkbox
+  default: true
+
+- name: use_hotkey
+  description: Add a keyboard shortcut to activate/deactivate the plugin.
+  input_type: checkbox
+  default: true
