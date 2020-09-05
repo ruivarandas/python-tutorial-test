@@ -1,3 +1,5 @@
+cp -R ~/extension/learning-extension ~/../../srv/conda/envs/notebook/lib/python3.7/site-packages/jupyter_contrib_nbextensions/nbextensions
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable --py learning
 jupyter contrib nbextensions install --user
