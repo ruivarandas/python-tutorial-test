@@ -101,7 +101,7 @@ define([
     }
 
     var disable_default_div = function() {
-        var buttons = ['move_up_down', 'insert_above_below', 'cut_copy_paste', 'cell_type', 'edit_menu', 'menu-cell-toolbar-submenu', 'to_code', 'to_markdown', 'to_raw']
+        var buttons = ['move_up_down', 'insert_above_below', 'cut_copy_paste', 'cell_type', 'edit_menu', 'menu-cell-toolbar-submenu', 'to_code', 'to_markdown', 'to_raw', 'btn-hide-input']
         for(var i = 0; i < buttons.length; i++){disable_div(buttons[i])}
     }
 
